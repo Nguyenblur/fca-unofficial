@@ -252,7 +252,12 @@ function buildAPI(globalOptions, html, jar) {
         "unsendMessage",
         "unsendMessageMqtt",
         "unfriend",
-
+"uploadAttachmment",
+    "sendComment",
+    "postStory",
+    "setStoryReaction",
+    "shareContact",
+    "setPostReaction",
         // HTTP
         "httpGet",
         "httpPost",
