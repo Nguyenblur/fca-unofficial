@@ -1,6 +1,6 @@
 'use strict';
 
-const { generateOfflineThreadingID, getCurrentTimestamp } = require('@xaviabot/fca-unofficial/utils');
+const { generateOfflineThreadingID, getCurrentTimestamp } = require('../utils');
 
 function isCallable(func) {
   try {
